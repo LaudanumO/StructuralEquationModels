@@ -1,0 +1,44 @@
+﻿body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
+}
+.edgeclass {
+    cursor:pointer;
+}
+path {
+    fill: none;
+    stroke: #999;
+}
+.allthatrot {
+    pointer-events: none; /* Firefox */
+}
+.node {
+    font: 10px sans-serif;
+}
+circle {
+    fill: lightgrey;
+}
+circle:hover {
+    fill: whitesmoke;
+    cursor: pointer;
+}
+circle:active {
+    fill: grey;
+}
+
+.link {
+    stroke: darkslategrey;
+    stroke-width:3px;
+    fill: none;
+    marker-end: url("#triangle");
+    marker-start:none;
+    opacity:0.8;
+    cursor:pointer
+}
+.link:hover {
+    cursor: pointer;
+}
+#triangle path {
+    fill: #000;
+}
