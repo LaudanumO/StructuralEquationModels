@@ -458,7 +458,7 @@ class edgeBundling {
             let input = document.getElementById("inputter");
             updateDisplay(input.value);
         });
-    }44 4663
+    }
     removeNode(id) {
         this.hideInputs();
         let key;
